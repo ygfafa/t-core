@@ -1,22 +1,9 @@
 import React, { useEffect, useState } from 'react'
 
+import { Button } from '@/components/ui/button'
+
 import { useSurveyStore } from '../../hooks/useSurveyStore'
 import { getSurveyResultCode } from '../../lib/utils'
-
-const colors = {
-  cardBg: '#027BFC',
-  cardBorder: '#0B0B0B',
-  cardShadow: '4px 4px 0px rgba(0, 0, 0, 0.8)',
-  textPrimary: '#FFFFFF',
-  textSecondary: '#EAF4FF',
-  buttonBg: '#FDC800',
-  buttonText: '#111111',
-  buttonBorder: '#0B0B0B',
-  buttonShadow: '4px 4px 0px rgba(0, 0, 0, 0.9)',
-  buttonHover: '#E5B900',
-  buttonActive: '#C9A500',
-  appBg: '#F3F0DD',
-}
 
 // 타입 정의
 interface Profile {
@@ -59,122 +46,35 @@ const ResultPage = () => {
 
   if (!profile)
     return (
-      <div
-        style={{
-          minHeight: '100vh',
-          background: colors.appBg,
-          color: colors.cardBg,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: 22,
-        }}
-      >
+      <div className="min-h-screen bg-[#F3F0DD] text-[#027BFC] flex items-center justify-center text-xl">
         결과를 불러오는 중...
       </div>
     )
 
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        background: colors.appBg,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
-      <div
-        style={{
-          maxWidth: 480,
-          width: '100%',
-          background: colors.cardBg,
-          border: `2px solid ${colors.cardBorder}`,
-          borderRadius: 6,
-          boxShadow: colors.cardShadow,
-          padding: 32,
-          color: colors.textPrimary,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: 24,
+    <div className="min-h-screen">
+      <div className="text-[22px] font-extrabold tracking-tight mb-2">나의 테니스 성향 결과</div>
+      <div className="text-[32px] font-extrabold text-[#FDC800] tracking-wider mb-1">
+        {profile.name}
+      </div>
+      <div className="text-lg font-bold text-[#EAF4FF] mb-2">{profile.nickname}</div>
+      <div className="text-base text-[#EAF4FF] mb-3 text-center leading-relaxed">
+        {profile.description}
+      </div>
+      <div className="bg-[#FDC800] text-[#111] rounded px-5 py-3 font-bold text-base shadow-[4px_4px_0px_rgba(0,0,0,0.9)] border-2 border-black">
+        {profile.improvement_tip}
+      </div>
+      <div className="text-[#EAF4FF] text-sm mt-4">
+        유형 코드: <b className="text-[#FDC800] text-base">{code}</b>
+      </div>
+      <Button
+        onClick={() => {
+          reset()
+          window.location.href = '/survey'
         }}
       >
-        <div style={{ fontSize: 22, fontWeight: 900, letterSpacing: -1, marginBottom: 8 }}>
-          나의 테니스 성향 결과
-        </div>
-        <div
-          style={{
-            fontSize: 32,
-            fontWeight: 900,
-            color: colors.buttonBg,
-            letterSpacing: 2,
-            marginBottom: 4,
-          }}
-        >
-          {profile.name}
-        </div>
-        <div
-          style={{ fontSize: 18, fontWeight: 700, color: colors.textSecondary, marginBottom: 8 }}
-        >
-          {profile.nickname}
-        </div>
-        <div
-          style={{
-            fontSize: 16,
-            color: colors.textSecondary,
-            marginBottom: 12,
-            textAlign: 'center',
-            lineHeight: 1.6,
-          }}
-        >
-          {profile.description}
-        </div>
-        <div
-          style={{
-            background: colors.buttonBg,
-            color: colors.buttonText,
-            borderRadius: 4,
-            padding: '14px 18px',
-            fontWeight: 700,
-            fontSize: 16,
-            boxShadow: colors.buttonShadow,
-            border: `2px solid ${colors.buttonBorder}`,
-          }}
-        >
-          {profile.improvement_tip}
-        </div>
-        <div style={{ color: colors.textSecondary, fontSize: 15, marginTop: 16 }}>
-          유형 코드: <b style={{ color: colors.buttonBg, fontSize: 18 }}>{code}</b>
-        </div>
-        <button
-          style={{
-            width: '100%',
-            padding: '16px 0',
-            background: colors.buttonBg,
-            color: colors.buttonText,
-            border: `2px solid ${colors.buttonBorder}`,
-            borderRadius: 4,
-            fontSize: 20,
-            fontWeight: 900,
-            boxShadow: colors.buttonShadow,
-            cursor: 'pointer',
-            marginTop: 24,
-            transition: 'background 0.2s, box-shadow 0.2s',
-            outline: 'none',
-          }}
-          onClick={() => {
-            reset()
-            window.location.href = '/survey'
-          }}
-          onMouseDown={e => (e.currentTarget.style.background = colors.buttonActive)}
-          onMouseUp={e => (e.currentTarget.style.background = colors.buttonBg)}
-          onMouseLeave={e => (e.currentTarget.style.background = colors.buttonBg)}
-          onMouseOver={e => (e.currentTarget.style.background = colors.buttonHover)}
-        >
-          다시 설문하기
-        </button>
-      </div>
+        다시 설문하기
+      </Button>
     </div>
   )
 }
