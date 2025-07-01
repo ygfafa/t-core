@@ -3,21 +3,16 @@ export const paths = {
     path: '/',
     getHref: () => '/',
   },
-  auth: {
-    login: {
-      path: '/auth/login',
-      getHref: (redirectTo?: string) =>
-        `/auth/login${redirectTo ? `?redirectTo=${encodeURIComponent(redirectTo)}` : ''}`,
-    },
+  survey: {
+    path: '/survey',
+    getHref: () => '/survey',
   },
-  app: {
-    root: {
-      path: '/app',
-      getHref: () => '/app',
-    },
-    order: {
-      path: 'order',
-      getHref: () => '/app/order',
-    },
+  loading: {
+    path: '/loading',
+    getHref: () => '/loading',
+  },
+  result: {
+    path: '/result',
+    getHref: () => '/result',
   },
 } as const

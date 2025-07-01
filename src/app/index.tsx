@@ -8,3 +8,20 @@ export const App = () => {
     </AppProvider>
   )
 }
+
+// PONA
+// PONE
+// POBA
+// POBE
+// PINA
+// PINE
+// PIBA
+// PIBE
+// CONA
+// CONE
+// COBA
+// COBE
+// CINA
+// CINE
+// CIBA
+// CIBE

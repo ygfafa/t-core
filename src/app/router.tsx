@@ -4,9 +4,6 @@ import { createBrowserRouter } from 'react-router'
 import { RouterProvider } from 'react-router/dom'
 
 import { paths } from '@/config/paths'
-import { ProtectedRoute } from '@/lib/auth'
-
-import AppRoot from './pages/app/root'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const convert = (queryClient: QueryClient) => (m: any) => {
@@ -25,22 +22,16 @@ export const createAppRouter = (queryClient: QueryClient) =>
       lazy: () => import('./pages/index').then(convert(queryClient)),
     },
     {
-      path: paths.auth.login.path,
-      lazy: () => import('./pages/auth/login').then(convert(queryClient)),
+      path: paths.survey.path,
+      lazy: () => import('./pages/survey').then(convert(queryClient)),
     },
     {
-      path: paths.app.root.path,
-      element: (
-        <ProtectedRoute>
-          <AppRoot />
-        </ProtectedRoute>
-      ),
-      children: [
-        {
-          path: paths.app.order.path,
-          lazy: () => import('./pages/app/order').then(convert(queryClient)),
-        },
-      ],
+      path: paths.loading.path,
+      lazy: () => import('./pages/loading').then(convert(queryClient)),
+    },
+    {
+      path: paths.result.path,
+      lazy: () => import('./pages/result').then(convert(queryClient)),
     },
     {
       path: '*',

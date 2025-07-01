@@ -45,37 +45,6 @@ const TennisPersonalityApp = () => {
     setAnswers(randomAnswers)
   }, [])
 
-  useEffect(() => {
-    const expectedCodes = [
-      'PORA',
-      'POCE',
-      'SORE',
-      'SDRC',
-      'PACE',
-      'PDRE',
-      'SDEA',
-      'SARC',
-      'PORE',
-      'SOCE',
-      'PDRC',
-      'PDCE',
-      'SORA',
-      'SDRE',
-      'SOEA',
-      'SURE',
-    ]
-
-    const missing = expectedCodes.filter(
-      code => !personalityProfiles.find((p: Profile) => p.code === code),
-    )
-    ;(console.log('🚀 ~ useEffect ~ personalityProfiles:', personalityProfiles),
-      console.log('🚀 ~ useEffect ~ missing:', missing))
-
-    if (missing.length > 0) {
-      console.warn('❌ 누락된 성향 코드:', missing)
-    }
-  }, [])
-
   const handleAnswer = (questionIndex: number, choiceIndex: number) => {
     const newAnswers = [...answers]
     newAnswers[questionIndex] = choiceIndex

@@ -1,0 +1,122 @@
+{
+  "elementStyling": {
+    "cards": {
+      "background": "#027BFC",
+      "border": "#0B0B0B",
+      "shadow": "4px 4px 0px rgba(0, 0, 0, 0.8)",
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "#EAF4FF"
+      },
+      "icons": {
+        "fill": "#FFFFFF",
+        "background": "none"
+      }
+    },
+    "buttons": {
+      "primary": {
+        "background": "#FDC800",
+        "text": "#111111",
+        "border": "#0B0B0B",
+        "shadow": "4px 4px 0px rgba(0, 0, 0, 0.9)",
+        "hover": {
+          "background": "#E5B900"
+        },
+        "active": {
+          "background": "#C9A500"
+        }
+      },
+      "secondary": {
+        "background": "#FFFFFF",
+        "text": "#111111",
+        "border": "#0B0B0B"
+      }
+    },
+    "icons": {
+      "navigation": {
+        "fill": "#0B0B0B",
+        "background": "none"
+      },
+      "action": {
+        "fill": "#FDC800",
+        "background": "#0B0B0B"
+      }
+    },
+    "inputs": {
+      "background": "#FFFFFF",
+      "text": "#111111",
+      "placeholder": "#B3B3B3",
+      "border": "#0B0B0B",
+      "focus": {
+        "border": "#111111"
+      }
+    },
+    "text": {
+      "heading": "#111111",
+      "body": "#2A2A2A",
+      "muted": "#6E6E6E",
+      "link": "#FF5A4F",
+      "white": "#FFFFFF"
+    },
+    "backgrounds": {
+      "app": "#F3F0DD",
+      "successBanner": "#36F3AE",
+      "cardBlue": "#027BFC"
+    },
+    "gradients": {
+      "none": {
+        "note": "No gradients found in the UI; all backgrounds are solid colors."
+      }
+    },
+    "shadows": {
+      "card": "4px 4px 0px rgba(0, 0, 0, 0.8)",
+      "button": "4px 4px 0px rgba(0, 0, 0, 0.9)",
+      "icon": "3px 3px 0px rgba(0, 0, 0, 0.7)"
+    },
+    "borderRadius": {
+      "buttons": "4px",
+      "inputs": "6px",
+      "cards": "6px"
+    },
+    "componentStates": {
+      "button": {
+        "default": {
+          "background": "#FDC800",
+          "text": "#111111"
+        },
+        "hover": {
+          "background": "#E5B900"
+        },
+        "pressed": {
+          "background": "#C9A500"
+        },
+        "disabled": {
+          "background": "#E0E0E0",
+          "text": "#9E9E9E"
+        },
+        "focus": {
+          "border": "2px solid #111111"
+        }
+      },
+      "input": {
+        "default": {
+          "background": "#FFFFFF",
+          "text": "#111111",
+          "border": "#0B0B0B"
+        },
+        "focus": {
+          "border": "2px solid #111111"
+        },
+        "placeholder": {
+          "color": "#B3B3B3"
+        }
+      }
+    },
+    "DO_NOT": {
+      "apply_card_background_gradient_to": "buttons, icons",
+      "apply_button_colors_to": "input text, labels",
+      "use_card_shadow_on": "floating banners, tooltips",
+      "override_text_colors_with": "background highlight colors"
+    }
+  }
+}
