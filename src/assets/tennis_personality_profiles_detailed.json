@@ -1,0 +1,162 @@
+[
+  {
+    "code": "PORA",
+    "name": "🔥 직진 본능의 파워 마무리러",
+    "nickname": "파워 드라이버",
+    "description": "강력한 한 방으로 흐름을 바꾸는 공격의 화신. 감정과 기세를 타며, 매 순간 상대를 압도한다. 파워 중심의 플레이에 익숙하지만, 회전과 전술적 다양성을 보완하면 더 무서운 존재가 될 수 있다.",
+    "improvement": "탑스핀 활용과 샷의 안정성 향상을 연습해보자. 예측 가능한 전개 대신 서프라이즈를 섞으면 완성도 UP!",
+    "goodPartners": ["SDRC", "SORC"],
+    "badPartners": ["PACE", "SORE"],
+    "viralTitle": "🔥 나는 직진 본능 ‘파워 드라이버’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "PORE",
+    "name": "⚡ 감각 폭발의 본능적 피니셔",
+    "nickname": "파워 인스팅터",
+    "description": "강력한 파워에 감정이 실려 예측불가한 플레이를 선보입니다. 한순간에 흐름을 가져올 수 있는 직감형 공격수입니다.",
+    "improvement": "흐름에만 의존하지 말고 서브 패턴과 코트 포지셔닝을 전략적으로 훈련해보세요.",
+    "goodPartners": ["SARC", "SDRC"],
+    "badPartners": ["SOEA", "PDRE"],
+    "viralTitle": "⚡ 나는 감각 폭발 ‘파워 인스팅터’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "PACE",
+    "name": "🚂 감정 폭주 기관차",
+    "nickname": "파워 캐넌",
+    "description": "감정의 에너지를 그대로 라켓에 실어내는 폭발형 타입. 한 방의 위력은 넘치지만 일관성 부족이 단점입니다.",
+    "improvement": "심호흡과 리듬 유지 훈련으로 멘탈 조절 능력을 기르면 상승세를 꾸준히 이어갈 수 있어요.",
+    "goodPartners": ["SODC", "PDRE"],
+    "badPartners": ["SOEA", "SORE"],
+    "viralTitle": "🚂 나는 멈출 수 없는 ‘파워 캐넌’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "PDRC",
+    "name": "🧱 수비형 정통 스트라이커",
+    "nickname": "디펜스 파이터",
+    "description": "파워를 갖춘 수비 전문가. 긴 랠리 속에서 흐름을 유지하고 기회를 기다립니다.",
+    "improvement": "볼을 때리는 타이밍과 속도 조절을 통해 결정력을 키워보세요.",
+    "goodPartners": ["SORE", "SOCE"],
+    "badPartners": ["PACE", "PORE"],
+    "viralTitle": "🧱 나는 흔들림 없는 ‘디펜스 파이터’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "PDCE",
+    "name": "📐 수비 설계자",
+    "nickname": "디펜스 엔지니어",
+    "description": "샷 하나하나에 계획이 있는 수비형 전술가. 각과 안정성을 바탕으로 상대를 무너뜨립니다.",
+    "improvement": "과감한 찬스 결정력을 길러야 끝내는 힘이 생깁니다.",
+    "goodPartners": ["SORA", "POCE"],
+    "badPartners": ["PORE", "SOEA"],
+    "viralTitle": "📐 나는 철저하게 설계된 ‘디펜스 엔지니어’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "PDRE",
+    "name": "🔒 견고한 수비 설계자",
+    "nickname": "수비 전략가",
+    "description": "단단하고 실수 없는 경기 운영을 중시합니다. 수세에서도 흔들리지 않는 강한 멘탈이 특징입니다.",
+    "improvement": "너무 수동적이지 않게, 공격 전환 타이밍을 연습해보세요.",
+    "goodPartners": ["PACE", "SOCE"],
+    "badPartners": ["PORA", "SORE"],
+    "viralTitle": "🔒 나는 흔들림 없는 ‘수비 전략가’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SORE",
+    "name": "🎨 감성 크리에이터",
+    "nickname": "아트 피니셔",
+    "description": "감각적이고 회전 중심의 기술형 스타일. 날카로운 각과 흐름으로 포인트를 창출합니다.",
+    "improvement": "마무리 결정력이 아쉬울 수 있어요. 플랫 샷 연습으로 카운터 공격을 준비하세요.",
+    "goodPartners": ["PORA", "SOCE"],
+    "badPartners": ["PACE", "PORE"],
+    "viralTitle": "🎨 나는 감성 넘치는 ‘아트 피니셔’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SOCE",
+    "name": "🎯 계산형 크리에이터",
+    "nickname": "컨트롤 마스터",
+    "description": "회전과 감각, 그리고 계산까지 겸비한 올라운더. 전술적 유연성이 강점입니다.",
+    "improvement": "공격 타이밍을 놓치는 경우가 많을 수 있어요. 빠른 판단력 연습을 병행하세요.",
+    "goodPartners": ["SORE", "PDRE"],
+    "badPartners": ["PACE", "SDEA"],
+    "viralTitle": "🎯 나는 정교한 ‘컨트롤 마스터’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SODC",
+    "name": "🧱 기술 기반의 수비 기계",
+    "nickname": "디펜스 테크니션",
+    "description": "회전과 안정성으로 상대를 지치게 만드는 전형적 수비 스타일. 실수가 적고 탄탄합니다.",
+    "improvement": "찬스에서 기회를 놓치지 않도록 앞쪽 플레이(발리 등)를 연습해보세요.",
+    "goodPartners": ["PORA", "SARC"],
+    "badPartners": ["PACE", "SOEA"],
+    "viralTitle": "🧱 나는 단단한 ‘디펜스 테크니션’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SDRC",
+    "name": "🪨 묵직한 안정감의 수비 지휘자",
+    "nickname": "철벽 서포터",
+    "description": "위험을 줄이고 실수를 최소화하는 현실주의자. 랠리를 유지하며, 팀원에게 믿음을 주는 플레이로 조율한다.",
+    "improvement": "너무 안전한 선택만 고집하다 보면 찬스를 놓칠 수 있다. 기회에 대한 직감과 마무리 능력도 길러보자.",
+    "goodPartners": ["PORA", "SORE"],
+    "badPartners": ["SACE", "POEA"],
+    "viralTitle": "🪨 나는 묵직한 안정감 ‘철벽 서포터’!"
+  },
+  {
+    "code": "SDEA",
+    "name": "💫 회전으로 흔드는 감성형 공격수",
+    "nickname": "탑스핀 플로우",
+    "description": "감성적 리듬을 타며 회전과 감각으로 상대를 흔드는 스타일. 공의 흐름과 코트 전체를 활용합니다.",
+    "improvement": "플레이가 흐름에 의존할 수 있어요. 서브와 리턴 안정성을 길러 기초 체력을 보완하세요.",
+    "goodPartners": ["POCE", "SARC"],
+    "badPartners": ["PACE", "SOEA"],
+    "viralTitle": "💫 나는 리듬을 타는 ‘탑스핀 플로우’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SARC",
+    "name": "🔁 지속력의 테니스 철인",
+    "nickname": "랠리 머신",
+    "description": "지칠 줄 모르는 체력과 일관된 리듬으로 상대를 압도하는 장거리 랠리 마스터입니다.",
+    "improvement": "결정력이 부족할 수 있어요. 앞쪽 플레이(발리나 드롭샷)를 연습해 마무리 옵션을 늘려보세요.",
+    "goodPartners": ["PORE", "SODC"],
+    "badPartners": ["PACE", "SORE"],
+    "viralTitle": "🔁 나는 끈질긴 ‘랠리 머신’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SOEA",
+    "name": "🎢 롤러코스터형 감성 공격수",
+    "nickname": "감정 스매셔",
+    "description": "기세를 탈 땐 누구보다 무섭지만 감정의 기복도 존재하는 플레이어. 회전과 파워의 균형을 이룹니다.",
+    "improvement": "불리한 상황에서의 감정 조절 훈련을 병행해 꾸준함을 확보하세요.",
+    "goodPartners": ["SDRC", "SARC"],
+    "badPartners": ["PACE", "PORE"],
+    "viralTitle": "🎢 나는 롤러코스터형 ‘감정 스매셔’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SORA",
+    "name": "🌪️ 스핀 기반의 변화무쌍한 공격수",
+    "nickname": "스핀 토네이도",
+    "description": "다양한 각도와 스핀으로 상대를 교란하는 창의적인 플레이어. 예측불허 스타일이 강점입니다.",
+    "improvement": "지나친 변칙보다는 안정성과 패턴화 연습이 필요합니다.",
+    "goodPartners": ["PORA", "PDCE"],
+    "badPartners": ["PACE", "PDRE"],
+    "viralTitle": "🌪️ 나는 변화무쌍한 ‘스핀 토네이도’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SDRE",
+    "name": "📦 철저한 계산형 수비 마스터",
+    "nickname": "컨트롤 박스",
+    "description": "숫자처럼 계산된 샷 배치와 랠리 유지로 상대를 조용히 잠식합니다.",
+    "improvement": "너무 수동적일 경우 기회를 놓칠 수 있어요. 능동적인 전환 연습도 필요합니다.",
+    "goodPartners": ["SORE", "PDRE"],
+    "badPartners": ["PORE", "SOEA"],
+    "viralTitle": "📦 나는 정밀한 ‘컨트롤 박스’! 당신은 어떤 테니스 유형?"
+  },
+  {
+    "code": "SURE",
+    "name": "🧘 집중력 최강의 무결점 수비러",
+    "nickname": "코트 요가마스터",
+    "description": "차분하고 흔들리지 않는 집중력으로 긴 랠리와 위기 상황을 버텨냅니다. 미세한 각도까지 의도적으로 공략하는 정제된 스타일.",
+    "improvement": "공격 기회를 지나치지 않도록 앞쪽 전환 훈련과 자신감을 길러보세요.",
+    "goodPartners": ["POCE", "SORA"],
+    "badPartners": ["PACE", "SOEA"],
+    "viralTitle": "🧘 나는 흔들림 없는 ‘코트 요가마스터’! 당신은 어떤 테니스 유형?"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "PORA": {
+    "power": 2,
+    "serves": 1.5,
+    "groundstrokes": 1.2,
+    "volleys": 1,
+    "stability": 0.8
+  },
+  "POCE": {
+    "power": 1.5,
+    "control": 2,
+    "serves": 1.2,
+    "touch_feel": 1.2,
+    "stability": 1
+  },
+  "SORE": {
+    "topspin": 2,
+    "touch_feel": 1.7,
+    "slice": 1.3,
+    "comfort": 1,
+    "volleys": 0.8
+  },
+  "SDRC": {
+    "stability": 2,
+    "returns": 1.5,
+    "comfort": 1.2,
+    "control": 1,
+    "groundstrokes": 0.8
+  },
+  "PACE": {
+    "power": 2.2,
+    "serves": 1.8,
+    "groundstrokes": 1.5,
+    "stability": 1,
+    "topspin": 0.5
+  },
+  "PDRE": {
+    "comfort": 2,
+    "returns": 1.8,
+    "control": 1.5,
+    "stability": 1.2,
+    "slice": 0.8
+  },
+  "SDEA": {
+    "topspin": 1.8,
+    "power": 1.5,
+    "comfort": 1.2,
+    "touch_feel": 1,
+    "serves": 0.8
+  },
+  "SARC": {
+    "serves": 2,
+    "power": 1.6,
+    "volleys": 1.2,
+    "topspin": 1,
+    "control": 0.8
+  },
+  "PORE": {
+    "power": 2.2,
+    "topspin": 1.4,
+    "comfort": 1.2,
+    "serves": 1.2,
+    "stability": 0.8
+  },
+  "SOCE": {
+    "topspin": 1.8,
+    "control": 1.6,
+    "touch_feel": 1.5,
+    "maneuverability": 1.2,
+    "comfort": 1
+  },
+  "PDRC": {
+    "returns": 2,
+    "stability": 1.8,
+    "comfort": 1.5,
+    "control": 1.2,
+    "slice": 1
+  },
+  "PDCE": {
+    "control": 2,
+    "stability": 1.8,
+    "returns": 1.4,
+    "touch_feel": 1.2,
+    "volleys": 1
+  },
+  "SORA": {
+    "topspin": 2,
+    "maneuverability": 1.6,
+    "slice": 1.4,
+    "touch_feel": 1.2,
+    "comfort": 1
+  },
+  "SDRE": {
+    "returns": 1.8,
+    "comfort": 1.6,
+    "groundstrokes": 1.4,
+    "control": 1.2,
+    "topspin": 1
+  },
+  "SOEA": {
+    "power": 1.6,
+    "topspin": 1.4,
+    "touch_feel": 1.2,
+    "comfort": 1,
+    "serves": 1
+  },
+  "SURE": {
+    "groundstrokes": 2,
+    "comfort": 1.8,
+    "control": 1.6,
+    "stability": 1.2,
+    "topspin": 1
+  }
+}

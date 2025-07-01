@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "상대가 중간 높이로 볼을 띄웠을 때, 당신의 선택은?",
+    "choices": [
+      { "text": "힘껏 내려쳐서 단번에 포인트를 따낸다", "scoreKeys": ["Power"] },
+      { "text": "탑스핀을 걸어 깊은 코너로 보내 흐름을 이어간다", "scoreKeys": ["Spin", "Topspin"] }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "플레이 중, 더 편안한 샷은?",
+    "choices": [
+      { "text": "플랫이나 슬라이스 같은 직선적인 강타", "scoreKeys": ["Power", "Slice"] },
+      { "text": "부드럽게 감아 넘기는 탑스핀 샷", "scoreKeys": ["Spin", "Touch/Feel"] }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "하드코트에서 당신의 경기 스타일은?",
+    "choices": [
+      { "text": "빠르고 묵직한 샷으로 상대를 밀어붙인다", "scoreKeys": ["Power", "Serves"] },
+      { "text": "높고 깊은 볼로 랠리를 유도한다", "scoreKeys": ["Spin", "Topspin"] }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "라켓을 고를 때, 가장 먼저 보는 조건은?",
+    "choices": [
+      { "text": "타구 시의 반발력과 스피드", "scoreKeys": ["Power"] },
+      { "text": "볼을 감싸는 느낌과 회전 성능", "scoreKeys": ["Spin", "Touch/Feel"] }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "상대가 네트 플레이를 시도할 때?",
+    "choices": [
+      { "text": "강하게 몸 쪽으로 쳐서 포인트를 만든다", "scoreKeys": ["Power"] },
+      { "text": "감각적으로 톱스핀 로브를 시도한다", "scoreKeys": ["Spin", "Touch/Feel"] }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "포핸드가 잘 맞는 날의 느낌은?",
+    "choices": [
+      { "text": "속도감 있게 터지는 파워가 느껴진다", "scoreKeys": ["Power"] },
+      { "text": "볼이 묻히고 감기며 각을 만들어낸다", "scoreKeys": ["Spin", "Control"] }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "상대가 연속으로 실수 중일 때, 당신은?",
+    "choices": [
+      { "text": "이 틈에 강하게 몰아붙인다", "scoreKeys": ["Offense"] },
+      { "text": "페이스 유지하며 계속 실수를 유도한다", "scoreKeys": ["Defense", "Stability"] }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "수비 중 깊은 공을 받았을 때?",
+    "choices": [
+      { "text": "되받아치며 역습의 기회를 노린다", "scoreKeys": ["Offense", "Power"] },
+      { "text": "높고 안정적인 로브로 상황을 정리한다", "scoreKeys": ["Defense", "Comfort"] }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "경기 시작 직전, 가장 중요하게 생각하는 것은?",
+    "choices": [
+      { "text": "어떻게 상대를 제압할지 구상한다", "scoreKeys": ["Offense"] },
+      { "text": "나의 실수를 줄이며 흐름을 만든다", "scoreKeys": ["Defense"] }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "당신이 가장 즐기는 상황은?",
+    "choices": [
+      { "text": "찬스를 잡아 결정짓는 순간", "scoreKeys": ["Offense", "Volleys"] },
+      { "text": "상대가 실수해서 점수를 얻는 순간", "scoreKeys": ["Defense", "Returns"] }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "당신은 리드 중일 때 어떤 플레이를 하나요?",
+    "choices": [
+      { "text": "더 강하게 밀어붙인다", "scoreKeys": ["Offense"] },
+      { "text": "안전하게 지키며 기회를 기다린다", "scoreKeys": ["Defense", "Control"] }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "상대가 에러를 유도하기 어려운 타입일 때, 당신은?",
+    "choices": [
+      { "text": "과감하게 전술을 바꾸고 적극적으로 공격한다", "scoreKeys": ["Offense"] },
+      { "text": "지치게 만들며 꾸준히 랠리를 이어간다", "scoreKeys": ["Defense", "Comfort"] }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "서브가 들어가지 않은 상황에서 두 번째 서브 선택은?",
+    "choices": [
+      { "text": "여전히 강한 서브로 승부한다", "scoreKeys": ["Ace", "Power"] },
+      { "text": "안정적으로 넣으며 랠리를 유도한다", "scoreKeys": ["Rally", "Serves"] }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "당신이 선호하는 경기 리듬은?",
+    "choices": [
+      { "text": "빠르고 짧게 끝나는 랠리", "scoreKeys": ["Ace", "Power"] },
+      { "text": "길고 견고한 랠리", "scoreKeys": ["Rally", "Comfort"] }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "상대가 짧은 볼을 쳤을 때?",
+    "choices": [
+      { "text": "전진해 즉시 포인트를 만든다", "scoreKeys": ["Ace", "Volleys"] },
+      { "text": "각을 벌리며 포지션을 다시 잡는다", "scoreKeys": ["Rally", "Maneuverability"] }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "당신이 포인트를 따는 주된 방식은?",
+    "choices": [
+      { "text": "1~2번 스트로크로 마무리", "scoreKeys": ["Ace"] },
+      { "text": "랠리 중 상대가 무너질 때까지 기다림", "scoreKeys": ["Rally"] }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "복식 경기에서 당신은 주로 어디에 위치하나요?",
+    "choices": [
+      { "text": "네트 앞에서 빠른 마무리를 노린다", "scoreKeys": ["Ace"] },
+      { "text": "후방에서 볼을 안정적으로 연결한다", "scoreKeys": ["Rally"] }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "테니스에서 당신이 좋아하는 순간은?",
+    "choices": [
+      { "text": "강력한 샷으로 박수 받는 순간", "scoreKeys": ["Ace", "Power"] },
+      { "text": "끈질긴 랠리 끝에 상대를 무너뜨린 순간", "scoreKeys": ["Rally"] }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "게임 중 전략이 잘 안 풀릴 때?",
+    "choices": [
+      { "text": "다른 패턴을 즉시 떠올리고 바꿔본다", "scoreKeys": ["Calculated"] },
+      { "text": "감정적으로 더 세게 치며 돌파 시도", "scoreKeys": ["Emotional", "Power"] }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "실수한 후 본인의 반응은?",
+    "choices": [
+      { "text": "다음 포인트를 어떻게 가져갈지 냉정히 분석", "scoreKeys": ["Calculated"] },
+      { "text": "분한 감정이 샷에 자연스럽게 반영", "scoreKeys": ["Emotional"] }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "경기 중간에 작전타임이 있다면?",
+    "choices": [
+      { "text": "리듬과 패턴을 재설계한다", "scoreKeys": ["Calculated"] },
+      { "text": "기세와 분위기를 어떻게 다시 끌어올릴지 생각", "scoreKeys": ["Emotional"] }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "연습할 때의 스타일은?",
+    "choices": [
+      { "text": "루틴을 정하고 체크리스트를 만든다", "scoreKeys": ["Calculated"] },
+      { "text": "감정 흐름에 따라 강도나 패턴이 변한다", "scoreKeys": ["Emotional"] }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "감정적으로 흔들리는 순간이 오면?",
+    "choices": [
+      { "text": "숨 고르기와 사고 전환으로 버틴다", "scoreKeys": ["Calculated"] },
+      { "text": "흐름을 끊지 않기 위해 직감적으로 푸시한다", "scoreKeys": ["Emotional"] }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "시합 중 팀원의 실수에 대한 반응은?",
+    "choices": [
+      { "text": "침착하게 리커버리 방안을 찾는다", "scoreKeys": ["Calculated"] },
+      { "text": "같이 감정적으로 격해지거나 동요된다", "scoreKeys": ["Emotional"] }
+    ]
+  }
+]
