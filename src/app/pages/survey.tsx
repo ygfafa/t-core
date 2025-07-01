@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router'
 
+import { Button } from '@/components/ui/button'
 import { LikertRadioGroup } from '@/components/ui/likert-radio-group'
 import { ProgressBar } from '@/components/ui/progress-bar'
 import { useSurveyStore } from '@/hooks/useSurveyStore'
@@ -37,7 +38,11 @@ const SurveyPage = () => {
   const handleSelect = (idx: number, val: number) => {
     setAnswer(idx, val)
     setTimeout(() => {
-      const ref = itemRefs.current[idx + 1] // 다음 질문으로 이동
+      // 아래쪽(현재 idx보다 큰) 미답변 index들
+      const below = answers.map((a, i) => (a === 0 && i > idx ? i : -1)).filter(i => i !== -1)
+      if (below.length === 0) return
+      const targetIdx = Math.min(...below)
+      const ref = itemRefs.current[targetIdx]
       if (ref) {
         ref.scrollIntoView({ behavior: 'smooth', block: 'center' })
       }
@@ -48,6 +53,16 @@ const SurveyPage = () => {
   const handleSubmit = () => {
     if (!isComplete) return
     navigate('/loading')
+  }
+
+  const handleContinue = () => {
+    const firstUnanswered = answers.findIndex(a => a === 0)
+    if (firstUnanswered !== -1) {
+      const ref = itemRefs.current[firstUnanswered]
+      if (ref) {
+        ref.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }
+    }
   }
 
   if (questions.length === 0) return <div>로딩 중...</div>
@@ -82,21 +97,14 @@ const SurveyPage = () => {
             </React.Fragment>
           ))}
         </ol>
-        <button
-          onClick={handleSubmit}
-          disabled={!isComplete}
-          className={
-            `w-full py-[14px] bg-[#FDC800] text-[#111] border-1 border-black rounded font-bold text-lg ` +
-            `shadow-[4px_4px_0px_rgba(0,0,0,0.9)] mt-6 transition-all outline-none ` +
-            `${isComplete ? 'cursor-pointer hover:bg-[#E5B900] active:bg-[#C9A500]' : 'cursor-not-allowed opacity-60'}`
-          }
-          onMouseDown={e => (e.currentTarget.style.background = '#C9A500')}
-          onMouseUp={e => (e.currentTarget.style.background = '#FDC800')}
-          onMouseLeave={e => (e.currentTarget.style.background = '#FDC800')}
-          onMouseOver={e => (e.currentTarget.style.background = '#E5B900')}
-        >
-          결과 보기
-        </button>
+
+        <div className="mt-6">
+          {isComplete ? (
+            <Button onClick={handleSubmit}>결과보기</Button>
+          ) : (
+            <Button onClick={handleContinue}>계속하기</Button>
+          )}
+        </div>
       </div>
     </div>
   )
